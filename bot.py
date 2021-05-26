@@ -4,8 +4,7 @@ import discord
 from config import settings
 
 
-def parse_city_json(json_file='russia.json'):
-    content = {}
+def parse_city_json(json_file='gorod.json'):
     p_obj = None
     try:
         js_obj = open(json_file, "r", encoding="utf-8")
